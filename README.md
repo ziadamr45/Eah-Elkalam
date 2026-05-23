@@ -2,6 +2,10 @@
 
 # 🔥 إيه الكلام؟ | Eah ElKalam?
 
+## 📸 Screenshot
+
+![Eah-Elkalam Screenshot](screenshot.png)
+
 ### رادار الترند المصري — تابع أحدث الترندات في الوقت الحقيقي
 ### Egyptian Trend Radar — real-time trending topics & Smart analysis
 
