@@ -2,7 +2,7 @@
 
 # 🔥 إيه الكلام؟ | Eah ElKalam?
 
-## 📸 Screenshot
+## 📸 لقطات الشاشة | Screenshots
 
 ![Eah-Elkalam Screenshot](screenshot.png)
 
