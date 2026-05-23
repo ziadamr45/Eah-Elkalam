@@ -3,7 +3,7 @@
 # 🔥 إيه الكلام؟ | Eah ElKalam?
 
 ### رادار الترند المصري — تابع أحدث الترندات في الوقت الحقيقي
-### Egyptian Trend Radar — real-time trending topics & AI-powered analysis
+### Egyptian Trend Radar — real-time trending topics & Smart analysis
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-0a5c5c?style=for-the-badge&logo=vercel&logoColor=white)](https://eah-elkalam.vercel.app)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ziadamr45/Eah-Elkalam)
@@ -16,13 +16,13 @@
 
 <div dir="rtl">
 
-**إيه الكلام؟** هو تطبيق ويب تفاعلي يتتبع أحدث الترندات على منصات التواصل الاجتماعي في مصر والعالم العربي. يعرض الترندات في الوقت الحقيقي مع تحليلات ذكية مدعومة بالذكاء الاصطناعي، وخريطة تفاعلية لمصر، ومطابقات مباشرة للترندات المشابهة.
+**إيه الكلام؟** هو تطبيق ويب تفاعلي يتتبع أحدث الترندات على منصات التواصل الاجتماعي في مصر والعالم العربي. يعرض الترندات في الوقت الحقيقي مع تحليلات ذكية مدعومة بتحليلات متقدمة، وخريطة تفاعلية لمصر، ومطابقات مباشرة للترندات المشابهة.
 
 التطبيق يجمع بين التصميم العصري والأداء السريع ليمنحك نظرة شاملة على ما يحدث الآن في المحتوى العربي.
 
 </div>
 
-**Eah ElKalam** is an interactive web app that tracks the latest trending topics on social media platforms in Egypt and the Arab world. It displays real-time trends with AI-powered analysis, an interactive Egypt map, and live matching for similar trends.
+**Eah ElKalam** is an interactive web app that tracks the latest trending topics on social media platforms in Egypt and the Arab world. It displays real-time trends with Smart analysis, an interactive Egypt map, and live matching for similar trends.
 
 The app combines modern design with fast performance to give you a comprehensive view of what's happening now in Arabic content.
 
@@ -33,7 +33,7 @@ The app combines modern design with fast performance to give you a comprehensive
 | الميزة | Feature |
 |--------|---------|
 | 📊 تتبع الترندات في الوقت الحقيقي | Real-time trend tracking |
-| 🤖 تحليلات ذكية بالذكاء الاصطناعي | AI-powered trend analysis |
+| 🤖 تحليلات ذكية ومتقدمة | Smart trend analysis |
 | 🗺️ خريطة مصر التفاعلية | Interactive Egypt map |
 | 🔍 بحث وفلترة حسب المنصة | Search & filter by platform |
 | 📱 تصميم متجاوب بالكامل | Fully responsive design |
