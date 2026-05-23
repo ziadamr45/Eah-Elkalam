@@ -39,7 +39,6 @@ mini-services/**/.env
 # vercel
 .vercel
 
-
 # typescript
 *.tsbuildinfo
 next-env.d.ts
@@ -51,7 +50,39 @@ dev.log
 dev.out.log
 test
 prompt
-
 server.log
-# Skills directory
+
+# ========= Platform-specific / not needed for Vercel =========
+# Skills directory (SDK tools, not part of the app)
 /skills/
+
+# Internal scripts & configs
+/.zscripts/
+
+# Agent context files
+/agent-ctx/
+
+# Download folder
+/download/
+
+# Example code
+/examples/
+
+# Database files (Vercel uses serverless, no local DB)
+/db/*.db
+/db/*.db-journal
+
+# Caddy gateway config (only for local dev)
+Caddyfile
+
+# Worklog (dev notes)
+worklog.md
+
+
+
+# Mini services are backend-only, not deployable on Vercel
+/mini-services/
+
+# Prisma DB file
+prisma/*.db
+prisma/*.db-journal
