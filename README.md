@@ -12,7 +12,7 @@
 
 ---
 
-## 📖 نبذة | Overview
+## 📖 نبذة
 
 <div dir="rtl">
 
@@ -22,28 +22,116 @@
 
 </div>
 
-**Eah ElKalam** is an interactive web app that tracks the latest trending topics on social media platforms in Egypt and the Arab world. It displays real-time trends with Smart analysis, an interactive Egypt map, and live matching for similar trends.
+## ✨ المميزات
+
+| الميزة | الوصف |
+|--------|-------|
+| 📊 تتبع الترندات في الوقت الحقيقي | تابع أحدث الترندات لحظة بلحظة |
+| 🤖 تحليلات ذكية ومتقدمة | تحليل عميق للترندات |
+| 🗺️ خريطة مصر التفاعلية | استكشف الترندات جغرافيًا |
+| 🔍 بحث وفلترة حسب المنصة | ابحث وصفّي حسب المنصة |
+| 📱 تصميم متجاوب بالكامل | يعمل على جميع الأجهزة |
+| 🌙 وضع داكن/فاتح | اختر المظهر المناسب لك |
+| 🎯 مطابقات مباشرة للترندات | ترندات مشابهة في الوقت الحقيقي |
+| 🖥️ واجهة طرفية تفاعلية | تجربة طرفية تفاعلية فريدة |
+
+## 🛠️ التقنيات
+
+| التقنية | الاستخدام |
+|---------|-----------|
+| ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white) | إطار العمل الكامل |
+| ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) | تطوير آمن بالأنواع |
+| ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white) | التصميم |
+| ![shadcn/ui](https://img.shields.io/badge/shadcn/ui-000000?style=flat) | مكونات واجهة المستخدم |
+| ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white) | ORM لقاعدة البيانات |
+| ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat&logo=framer&logoColor=white) | الحركات والأنيميشن |
+| ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white) | النشر والاستضافة |
+
+## 🚀 التشغيل
+
+### المتطلبات
+
+- Node.js 18+ أو Bun
+- npm أو yarn أو bun
+
+### التثبيت
+
+```bash
+# استنساخ المستودع
+git clone https://github.com/ziadamr45/Eah-Elkalam.git
+cd Eah-Elkalam
+
+# تثبيت التبعيات
+npm install
+# أو
+bun install
+
+# إعداد متغيرات البيئة
+cp .env.example .env
+# عدّل ملف .env بالإعدادات الخاصة بك
+
+# تشغيل تهجيرات قاعدة البيانات
+npx prisma migrate dev
+
+# تشغيل خادم التطوير
+npm run dev
+```
+
+التطبيق سيعمل على `http://localhost:3000`
+
+## 📁 هيكل المشروع
+
+```
+Eah-Elkalam/
+├── src/
+│   ├── app/                    # صفحات Next.js ومسارات API
+│   ├── components/
+│   │   └── trend-radar/        # مكونات الترند
+│   │       ├── TrendCard       # بطاقة عرض الترند
+│   │       ├── TrendDetailModal# نافذة تفاصيل الترند
+│   │       ├── AISummaryModal  # نافذة التحليل الذكي
+│   │       ├── TerminalConsole # طرفية تفاعلية
+│   │       ├── EgyptMap        # خريطة تفاعلية
+│   │       ├── LiveMatches     # عرض المطابقات المباشرة
+│   │       └── NotificationPopup
+│   ├── hooks/                  # خطافات React المخصصة
+│   └── lib/
+│       └── trend-radar/        # أنواع وبيانات وأدوات
+├── prisma/                     # مخطط قاعدة البيانات والتهجيرات
+├── public/                     # الملفات الثابتة
+└── package.json
+```
+
+---
+
+<div align="center">
+
+Made with ❤️ by [Ziad Amr](https://github.com/ziadamr45)
+
+</div>
+
+---
+
+## English
+
+**Eah ElKalam** is an interactive web app that tracks the latest trending topics on social media platforms in Egypt and the Arab world. It displays real-time trends with smart analysis, an interactive Egypt map, and live matching for similar trends.
 
 The app combines modern design with fast performance to give you a comprehensive view of what's happening now in Arabic content.
 
----
+### Features
 
-## ✨ المميزات | Features
+| Feature | Description |
+|---------|-------------|
+| 📊 Real-time trend tracking | Follow the latest trends as they happen |
+| 🤖 Smart trend analysis | Deep analysis of trending topics |
+| 🗺️ Interactive Egypt map | Explore trends geographically |
+| 🔍 Search & filter by platform | Search and filter by social platform |
+| 📱 Fully responsive design | Works on all devices |
+| 🌙 Dark/Light mode | Choose your preferred theme |
+| 🎯 Live trend matching | Similar trends in real time |
+| 🖥️ Interactive terminal console | Unique interactive terminal experience |
 
-| الميزة | Feature |
-|--------|---------|
-| 📊 تتبع الترندات في الوقت الحقيقي | Real-time trend tracking |
-| 🤖 تحليلات ذكية ومتقدمة | Smart trend analysis |
-| 🗺️ خريطة مصر التفاعلية | Interactive Egypt map |
-| 🔍 بحث وفلترة حسب المنصة | Search & filter by platform |
-| 📱 تصميم متجاوب بالكامل | Fully responsive design |
-| 🌙 وضع داكن/فاتح | Dark/Light mode |
-| 🎯 مطابقات مباشرة للترندات | Live trend matching |
-| 🖥️ واجهة طرفية تفاعلية | Interactive terminal console |
-
----
-
-## 🛠️ التقنيات | Tech Stack
+### Tech Stack
 
 | Technology | Purpose |
 |------------|---------|
@@ -55,16 +143,14 @@ The app combines modern design with fast performance to give you a comprehensive
 | ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat&logo=framer&logoColor=white) | Animations |
 | ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white) | Deployment |
 
----
+### Getting Started
 
-## 🚀 التشغيل | Getting Started
-
-### المتطلبات | Prerequisites
+#### Prerequisites
 
 - Node.js 18+ or Bun
 - npm, yarn, or bun
 
-### التثبيت | Installation
+#### Installation
 
 ```bash
 # Clone the repository
@@ -89,9 +175,7 @@ npm run dev
 
 The app will be available at `http://localhost:3000`
 
----
-
-## 📁 هيكل المشروع | Project Structure
+### Project Structure
 
 ```
 Eah-Elkalam/
