@@ -510,15 +510,13 @@ export default function EhElKalamPage() {
             </div>
 
             <div className="flex items-center gap-4 text-xs text-[#8B95A5]">
-              <span>🇪🇬 صنع في مصر</span>
-              <span>•</span>
-              <span>🤖 مدعوم بالذكاء الاصطناعي</span>
+              <span>🇪🇬 زياد عمرو</span>
               <span>•</span>
               <span>📡 بيانات حية</span>
             </div>
 
             <p className="text-xs text-[#8B95A5]">
-              © 2025 إيه الكلام؟ - كل الحقوق محفوظة
+              © 2026 إيه الكلام؟ - زياد عمرو
             </p>
           </div>
         </div>
