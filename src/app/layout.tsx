@@ -21,11 +21,7 @@ export const metadata: Metadata = {
   keywords: ["ترندات مصر", "إيه الكلام", "Egyptian trends", "رادار الترندات"],
   authors: [{ name: "Eh El-Kalam Team" }],
   icons: {
-    icon: [
-      { url: "/favicon.ico", sizes: "32x32" },
-      { url: "/logo.png", type: "image/png" },
-    ],
-    apple: "/apple-icon.png",
+    icon: "/logo.svg",
   },
 };
 
