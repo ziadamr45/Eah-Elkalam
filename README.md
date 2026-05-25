@@ -117,7 +117,6 @@ Ziad Amr
 ---
 
 
-
 ### 👨‍💻 المطور
 
 **زياد عمرو (Ziad Amr)**
@@ -136,6 +135,7 @@ Ziad Amr
 ---
 
 ## English
+
 
 **Eah ElKalam** is an interactive web app that tracks the latest trending topics on social media platforms in Egypt and the Arab world. It displays real-time trends with smart analysis, an interactive Egypt map, and live matching for similar trends.
 
@@ -243,3 +243,4 @@ Ziad Amr
 - 🎥 YouTube: [@alhayat_ala_eltarek](https://youtube.com/@alhayat_ala_eltarek?si=pcsc_31Kcv3Jym14)
 - 💼 LinkedIn: [ziad-amr](https://www.linkedin.com/in/ziad-amr-44633a411)
 - 📧 Email: ziad90216@gmail.com
+
